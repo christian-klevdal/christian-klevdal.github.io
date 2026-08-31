@@ -290,6 +290,10 @@ li {
   color: var(--accent);
 }
 
+.event.homework {
+  color: var(--usd-blue);
+}
+
 .event.exam {
   color: #8a3a3a;
 }
