@@ -306,19 +306,22 @@ li {
   scroll-margin-top: 1rem;
 }
 
-.homework-item {
+.homework-item,
+.download-item {
   margin-top: 0.8rem;
   padding: 0.65rem 0.75rem;
   border: 1px solid var(--line);
   background: #fafafa;
 }
 
-.homework-item h2 {
+.homework-item h2,
+.download-item h2 {
   margin: 0;
   font-size: 1rem;
 }
 
-.homework-item p {
+.homework-item p,
+.download-item p {
   margin: 0.35rem 0 0;
 }
 
