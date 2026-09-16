@@ -224,6 +224,7 @@ li {
 
 .schedule-table {
   table-layout: fixed;
+  min-width: 64rem;
   font-size: 0.91rem;
   line-height: 1.47;
 }
@@ -238,6 +239,11 @@ li {
   background: #fafafa;
   color: var(--usd-blue);
   font-weight: 700;
+}
+
+.schedule-table thead th:nth-child(3),
+.schedule-table thead th:nth-child(5) {
+  width: 8.5rem;
 }
 
 .schedule-table .date,
@@ -292,6 +298,10 @@ li {
 
 .event.homework {
   color: var(--usd-blue);
+}
+
+.event.online-homework {
+  color: #715383;
 }
 
 .event.exam {
@@ -367,6 +377,7 @@ footer {
   }
 
   .schedule-table {
+    min-width: 0;
     font-size: 0.94rem;
   }
 
@@ -393,6 +404,10 @@ footer {
 
   .schedule-table tr > :last-child {
     border-bottom: 0;
+  }
+
+  .schedule-table td:empty {
+    display: none;
   }
 
   .schedule-table .week-cell {
